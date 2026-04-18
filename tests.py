@@ -13,4 +13,4 @@ def test_region_radio():
     options = ['all', 'north', 'south', 'east', 'west']
     for option in options:
         fig = update_line_chart(option)
-        assert fig is None
+        assert fig is not None
